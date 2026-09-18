@@ -1,0 +1,40 @@
+.udaan-cesium-root {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.udaan-cesium-root .cesium-viewer,
+.udaan-cesium-root .cesium-viewer-cesiumWidgetContainer,
+.udaan-cesium-root .cesium-widget,
+.udaan-cesium-root .cesium-widget canvas {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.udaan-cesium-root .cesium-viewer-bottom,
+.udaan-cesium-root .cesium-viewer-toolbar,
+.udaan-cesium-root .cesium-viewer-animationContainer,
+.udaan-cesium-root .cesium-viewer-timelineContainer,
+.udaan-cesium-root .cesium-viewer-fullscreenContainer {
+  display: none !important;
+}
+
+.udaan-map-tooltip {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  background: rgba(7, 27, 56, 0.94);
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-family: var(--udaan-font-mono);
+  line-height: 1.35;
+  transform: translate(10px, 10px);
+  max-width: 180px;
+}

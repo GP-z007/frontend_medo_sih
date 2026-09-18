@@ -1,0 +1,49 @@
+@import './fonts.css';
+
+:root {
+  --navy-950: #071b38;
+  --navy-900: #0b2345;
+  --text-primary: #10233f;
+  --text-secondary: #66768c;
+  --surface: #ffffff;
+  --surface-soft: #f7f8fa;
+  --page: #f3f4f6;
+  --border: #dde2e8;
+  --orange: #f28c28;
+  --orange-strong: #e86720;
+  --orange-soft: #fff4e8;
+  --red: #db4b36;
+  --green: #239264;
+  --stable: #64748b;
+
+  --udaan-bg: var(--page);
+  --udaan-bg-elevated: var(--surface);
+  --udaan-surface: var(--surface-soft);
+  --udaan-text: var(--text-primary);
+  --udaan-text-muted: var(--text-secondary);
+  --udaan-border: var(--border);
+  --udaan-accent: var(--orange);
+  --udaan-accent-strong: var(--orange-strong);
+  --udaan-accent-soft: var(--orange-soft);
+  --udaan-rising: var(--red);
+  --udaan-falling: var(--green);
+  --udaan-stable: var(--stable);
+  --udaan-shadow: none;
+  --udaan-radius: 6px;
+  --udaan-radius-sm: 6px;
+  --udaan-font: 'Absans', 'Segoe UI', 'Helvetica Neue', 'Noto Sans', sans-serif;
+  --udaan-font-display: 'Absans', 'Segoe UI', 'Helvetica Neue', sans-serif;
+  --udaan-font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+  --udaan-header-h: 54px;
+  --udaan-pad: 10px;
+  --udaan-gap: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
